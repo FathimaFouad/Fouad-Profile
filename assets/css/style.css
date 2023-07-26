@@ -234,8 +234,8 @@ h6 {
 .logo-img {
   max-width: 100px;
   position: absolute;
-  top: 1px;
-  right: 1px;
+  top: 0;
+  right: 0;
   border-radius: 50%; /* Make the container circular using border-radius */
   overflow: hidden;
 }
@@ -367,10 +367,22 @@ section {
   width: 121px;
 }
 
+#case-study-wll-title h2::after {
+  width: 355px;
+}
+
 .section-title p {
   margin-bottom: 0;
 }
 
+#wll-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#wll-author {
+  font-size: 10px;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -446,7 +458,6 @@ section {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
@@ -465,7 +476,7 @@ section {
 .reference-image-2 {
   background-image: url("../img/case-study-2.jpeg");
   background-size: cover;
-  margin: 50px 0 10px 0;
+  margin: 50px 0 0 0;
   height: 50vh; /* Set a specific height for the div */
 }
 
@@ -654,6 +665,12 @@ section {
   width: 300px;
   z-index: 9999;
   background: #040b14;
+}
+
+#footer-wll {
+  background: #040b14;
+  color: #6f7180;
+  text-align: center;
 }
 
 #footer .copyright {
